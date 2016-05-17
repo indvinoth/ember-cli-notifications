@@ -17,7 +17,7 @@ export default Ember.Component.extend({
   closeIcon: Ember.computed('icons', function() {
     if (this.get('icons') === 'bootstrap') return 'glyphicon glyphicon-remove';
 
-    return 'fa fa-times';
+    return 'remove icon';
   }),
 
   // Set icon depending on notification type
@@ -38,13 +38,13 @@ export default Ember.Component.extend({
 
     switch (this.get('notification.type')){
       case "info":
-        return 'fa fa-info-circle';
+        return 'info icon';
       case "success":
-        return 'fa fa-check';
+        return 'checkmark icon';
       case "warning":
-        return 'fa fa-warning';
+        return 'warning icon';
       case "error":
-        return 'fa fa-exclamation-circle';
+        return 'warning circle icon';
     }
   }),
 

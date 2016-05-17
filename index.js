@@ -16,22 +16,22 @@ module.exports = {
                  { includeFontAwesome: false };
 
     if (config.includeFontAwesome) {
-      app.import(app.bowerDirectory + '/font-awesome/fonts/fontawesome-webfont.eot', {
+      app.import(app.bowerDirectory + '/semantic/dist/themes/default/assets/fonts/icons.eot', {
         destDir: 'fonts'
       });
-      app.import(app.bowerDirectory + '/font-awesome/fonts/fontawesome-webfont.svg', {
+      app.import(app.bowerDirectory + '/semantic/dist/themes/default/assets/fonts/icons.svg', {
         destDir: 'fonts'
       });
-      app.import(app.bowerDirectory + '/font-awesome/fonts/fontawesome-webfont.ttf', {
+      app.import(app.bowerDirectory + '/semantic/dist/themes/default/assets/fonts/icons.ttf', {
         destDir: 'fonts'
       });
-      app.import(app.bowerDirectory + '/font-awesome/fonts/fontawesome-webfont.woff', {
+      app.import(app.bowerDirectory + '/semantic/dist/themes/default/assets/fonts/icons.woff', {
         destDir: 'fonts'
       });
-      app.import(app.bowerDirectory + '/font-awesome/fonts/fontawesome-webfont.woff2', {
+      app.import(app.bowerDirectory + '/semantic/dist/themes/default/assets/fonts/icons.woff2', {
         destDir: 'fonts'
       });
-      app.import(app.bowerDirectory + '/font-awesome/css/font-awesome.css');
+      app.import(app.bowerDirectory + '/semantic/dist/components/icon.css');
     }
   }
 };
