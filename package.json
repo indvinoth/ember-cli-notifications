@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-notifications",
+  "name": "ember-cli-notifications-semantic-ui",
   "version": "3.3.1",
-  "description": "Atom inspired notification messages for ember-cli",
+  "description": "Atom inspired notification messages for ember-cli, forked from stonecircle/ember-cli-notifications",
   "directories": {
     "doc": "doc",
     "test": "tests"
